@@ -222,7 +222,7 @@ venv/
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
-*.ipynb
+
 
 
 # Data files (we don't want to commit large data files)
