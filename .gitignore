@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Virtual Environment 
+venv/ 
+.venv/ 
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+
+# Data files (we don't want to commit large data files)
+data/raw/*.csv
+data/processed/*.csv
+
+# Logs and temporary files
+*.log
+*.pyc
+__pycache__/
+.DS_Store
