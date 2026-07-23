@@ -216,14 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
 # Virtual Environment 
 venv/ 
 .venv/ 
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
-
-
 
 # Data files (we don't want to commit large data files)
 data/raw/*.csv
@@ -234,3 +233,11 @@ data/processed/*.csv
 *.pyc
 __pycache__/
 .DS_Store
+
+# ========================================
+# EXCEPTIONS - Allow these folders/files
+# ========================================
+
+# Allow dashboard folder (override previous ignores)
+!dashboard/
+!dashboard/*.py
